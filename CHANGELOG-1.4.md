@@ -24,6 +24,8 @@
 - Removed event `pim_catalog.pre_remove.group` use `akeneo.storage.pre_remove` instead
 - Removed event `pim_catalog.pre_remove.product` use `akeneo.storage.pre_remove` instead
 - Removed event `pim_catalog.post_remove.product` use `akeneo.storage.post_remove` instead
+- Change constructor of `Pim\Bundle\PdfGeneratorBundle\Renderer\ProductPdfRenderer`.
+  Added `Liip\ImagineBundle\Imagine\Cache\CacheManager`, `Liip\ImagineBundle\Imagine\Data\DataManager` and `Liip\ImagineBundle\Imagine\Filter\FilterManager`
 - Added function `isBackendTypeReferenceData` to the `Pim\Bundle\CatalogBundle\Model\AttributeInterface`
 
 ## Bug fixes
